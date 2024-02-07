@@ -55,6 +55,7 @@ ul{
     font-size: .8rem;
     padding: .1rem .2rem;
     border-radius: 1px;
+    width: fit-content;
 }
 
 .sign-in{
@@ -63,6 +64,12 @@ ul{
     font-size: .8rem;
     border-radius: 1px;
     cursor: pointer;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
 }
 
 .card{
@@ -92,7 +99,7 @@ ul{
 }
 
 input{
-    width: 300px;
+    width: 18.75rem;
     padding: .62rem;
 }
 
@@ -221,6 +228,125 @@ aside{
     line-height: 2rem;
    
     word-spacing: .1rem;
+  }
+
+  /* sign up page starts here */
+
+  .signup-container{
+    background-image: url(./asset/footer\ signup\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+
+  }
+  .card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1rem auto;
+    background-color: #000000BF;
+    opacity: 1;
+    width: 18.75rem;
+    border-radius: 3px;
+    padding: 0 2rem;
+    font-size: .7rem;
+    color: #8C8C8C;
+  }
+
+  .card-2 h2{
+    margin-top: 1rem;
+  }
+
+  .signup-link a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  #foot-text p{
+    margin-bottom: 5rem;
+    width: 250px;
+    line-height: 1.4;
+  }
+
+  #foot-text p a{
+    font-size: .8rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0071EB;
+  }
+
+  .top,
+  .bottom {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      gap: 1rem;
+  }
+
+  .input-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+  }
+
+  .input-boxes a{
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .input-box {
+    width: 200px;
+    border-radius: 3px; 
+    border: none;
+    background-color: #333333; 
+}
+
+  .btn{
+    background-color: #E50914;
+    margin-top: 2rem;
+    padding: .62rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .extra-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: #B3B3B3;
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .facebook{
+    display: flex;
+    justify-content: flex-start;
+    align-items:left;
+    gap: .4rem;
+  }
+
+  .footer-1{
+   background-color: #000000;
+   height: 176px;
+   opacity: .8;
+   margin-top: 6rem;
+    
   }
 
 

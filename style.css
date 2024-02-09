@@ -349,6 +349,39 @@ aside{
     
   }
 
+  /* Profile page starts here */
+  .profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+
+  }
+
+  .photo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+  }
+
+  .group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    cursor: pointer;
+  }
+
+  .profile-container a{
+    border: .2px solid #808080;
+    padding: .6rem 1.6rem;
+    text-decoration: none;
+    color: #808080;
+  }
 
 
 

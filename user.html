@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-     <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix | Clone</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="home-container">
         <div class="container">
-          <img class="logo" src="./asset/Logo.svg" alt="logo" width="80px" />
-          <ul>
-            <div class="language">
-              <img src="./asset/icon-park-outline_earth.svg" alt="" />
-              <p>English</p>
-              <img src="./asset/bi_caret-down-fill.svg" alt="" />
+          <div class="left-navbar">
+            <img class="logo" src="./asset/Logo.svg" alt="logo" width="80px" />
+            <div class="left-nav-items">
+              <a href="#">Ana Sayfa</a>
+              <a href="#">Diziler</a>
+              <a href="#">Filmler</a>
+              <a href="#">Yeni ve Popüler</a>
+              <a href="#">Listem</a>
             </div>
-            <div class="sign-in">
-              <a href="./signup.html">Sign in</a>
+          </div>
+          <ul class="right-navbar">
+            <img src="./asset/Search.svg" alt="" width="10px" />
+            <a href="#">ÇOCUK</a>
+            <img src="./asset/GiftBox.svg" alt="" width="10px" />
+            <img src="./asset/NotificationBell.svg" alt="" width="10px" />
+            <div class="arrow-down">
+              <img src="./asset/ProfileIMG.svg" alt="" width="15px" />
+              <img src="./asset/DownArrow.svg" alt="" width="8px" />
             </div>
           </ul>
         </div>
       </nav>
-    </header> 
-</body>
+
+      <div class="home-hero-section">
+        <img class="hero-image" src="./asset/MoviePoster.png" alt="" />
+        <div class="hero-text">
+          <img src="./asset/MovieName.png" alt="" width="200px" />
+
+          <div class="rating">
+            <img src="./asset/Top10Badge.svg" alt="" width="20px"/>
+            <p>Türkiye’de Bugün 4 Numara</p>
+          </div>
+
+          <p class="main-hero-text">
+            Küçük yaşta başının çaresine bakmayı öğrenen ve çok çalışarak iş
+            dünyasında önemli bir konuma gelen Emir, bir gün sokak şarkıcısı bir
+            kızla karşılaşır ve hayatı değişir.
+          </p>
+          <div class="component">
+            <div class="play">
+              <img src="./asset/Play.svg" alt="" width="15px"/>
+              <p>Oynat</p>
+            </div>
+
+            <div class="detail">
+              <img src="./asset/Detail.svg" alt="" width="15px"/>
+              <p>Daha Fazla Bilgi</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-section1">
+            <p>Netflix'te Popüler</p>
+            <div class="list1">
+                <img class="trailer" src="./asset/MoviePoster (1).png" alt="">
+                <img class="trailer" src="./asset/MovieHorizontalCard.png" alt="">
+                <img class="trailer" src="./asset/MovieHorizontalCard (1).png" alt="">
+                <img class="trailer" src="./asset/MovieHorizontalCard (2).png" alt="">
+                <img class="trailer"  src="./asset/MovieHorizontalCard (3).png" alt="">
+                <img class=" arrow-right" src="./asset/Vector (18).svg" alt="">
+            </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

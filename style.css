@@ -120,8 +120,10 @@ input::placeholder{
     cursor: pointer;
 }
 
-.get-started p{
+.get-started a{
     font-size: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .boxes{

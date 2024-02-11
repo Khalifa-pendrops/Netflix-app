@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #000000;
     color: #FFFFFF;
     display: flex;
@@ -12,15 +12,16 @@ body{
     height: 100vh;
 }
 
-.logo{
+.logo {
     height: fit-content;
     margin: 1.8rem;
 }
 
-.icon{
+.icon {
     width: 15px;
 }
-nav{
+
+nav {
     background-image: url(./asset/Frame.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -29,13 +30,13 @@ nav{
     height: 400px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-ul{
+ul {
     margin: 1.8rem;
     display: flex;
     justify-content: center;
@@ -45,7 +46,7 @@ ul{
     height: fit-content;
 }
 
-.language{
+.language {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +59,7 @@ ul{
     width: fit-content;
 }
 
-.sign-in{
+.sign-in {
     background-color: #E50914;
     padding: .2rem .8rem;
     font-size: .8rem;
@@ -66,13 +67,13 @@ ul{
     cursor: pointer;
 }
 
-.sign-in a{
+.sign-in a {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bolder;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,12 +81,13 @@ ul{
     gap: 1rem;
 }
 
-.top-text{
+.top-text {
     text-align: center;
     font-size: 2.4rem;
     width: 350px;
 }
-.top-search{
+
+.top-search {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,22 +95,22 @@ ul{
     margin-bottom: 2rem;
 }
 
-.top-search p{
+.top-search p {
     font-size: .8rem;
     text-align: center;
 }
 
-input{
+input {
     width: 18.75rem;
     padding: .62rem;
 }
 
-input::placeholder{
+input::placeholder {
     font-size: .6rem;
     color: #8C8C8C;
 }
 
-.get-started{
+.get-started {
     background-color: #E50914;
     padding: .65rem 1.4rem;
     display: flex;
@@ -120,27 +122,27 @@ input::placeholder{
     cursor: pointer;
 }
 
-.get-started a{
+.get-started a {
     font-size: 1rem;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.boxes{
+.boxes {
     display: flex;
     justify-content: center;
     align-items: center;
-   flex-wrap: wrap;
-   gap: .1rem;
-    margin-top: .8rem;  
+    flex-wrap: wrap;
+    gap: .1rem;
+    margin-top: .8rem;
 }
 
-p h1 h2 h3 h4 h5 h6{
+p h1 h2 h3 h4 h5 h6 {
     width: auto;
 }
 
 /* main section starts here */
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,25 +155,25 @@ section{
     border-right: none;
 }
 
-.section-text{
+.section-text {
     width: 300px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.section-text p{
+.section-text p {
     width: 280px;
     font-size: 1rem;
     word-spacing: 2px;
     line-height: 1.4rem;
 }
 
-.section-text h2{
+.section-text h2 {
     width: 250px;
 }
 
-aside{
+aside {
     border: 2px solid;
     border-top-color: #696767;
     border-bottom-color: #656262;
@@ -179,16 +181,16 @@ aside{
     border-right: none;
 }
 
-.questions{
+.questions {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     margin: 2rem 0;
-} 
+}
 
-.ask{
+.ask {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,8 +199,9 @@ aside{
     width: 25rem;
     background-color: #303030;
 }
-  /* footer starts here */
-  footer{
+
+/* footer starts here */
+footer {
     margin: 2rem 0;
     display: flex;
     flex-direction: column;
@@ -206,29 +209,30 @@ aside{
     align-items: center;
     color: #757575;
     font-size: .5rem;
-  }
+}
 
-  .foot-container{
+.foot-container {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     gap: 1rem;
-  }
-  .foot-text{
+}
+
+.foot-text {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
     line-height: 2rem;
-   
+
     word-spacing: .1rem;
-  }
+}
 
-  /* sign up page starts here */
+/* sign up page starts here */
 
-  .signup-container{
+.signup-container {
     background-image: url(./asset/footer\ signup\ bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -236,8 +240,9 @@ aside{
     /* background-attachment: fixed; */
     height: 100vh;
 
-  }
-  .card-2{
+}
+
+.card-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,102 +256,102 @@ aside{
     padding: 0 2rem;
     font-size: .7rem;
     color: #8C8C8C;
-  }
+}
 
-  .card-2 h2{
+.card-2 h2 {
     margin-top: 1rem;
-  }
+}
 
-  .signup-link a{
+.signup-link a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bolder;
-  }
+}
 
-  #foot-text p{
+#foot-text p {
     margin-bottom: 5rem;
     width: 250px;
     line-height: 1.4;
-  }
+}
 
-  #foot-text p a{
+#foot-text p a {
     font-size: .8rem;
     text-decoration: none;
     font-weight: bolder;
     color: #0071EB;
-  }
+}
 
-  .top,
-  .bottom {
+.top,
+.bottom {
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: left;
-      gap: 1rem;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+}
 
-  .input-boxes{
+.input-boxes {
     display: flex;
     flex-direction: column;
     gap: .4rem;
-  }
+}
 
-  .input-boxes a{
+.input-boxes a {
     font-size: 1rem;
     text-decoration: none;
     text-align: center;
-  }
-
-  .input-box {
-    width: 200px;
-    border-radius: 3px; 
-    border: none;
-    background-color: #333333; 
 }
 
-  .btn{
+.input-box {
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    background-color: #333333;
+}
+
+.btn {
     background-color: #E50914;
     margin-top: 2rem;
     padding: .62rem;
     color: #FFFFFF;
     font-weight: bolder;
     cursor: pointer;
-  }
+}
 
-  .extra-text{
+.extra-text {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
     color: #B3B3B3;
-  }
+}
 
-  .bottom{
+.bottom {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-  }
+}
 
-  .facebook{
+.facebook {
     display: flex;
     justify-content: flex-start;
-    align-items:left;
+    align-items: left;
     gap: .4rem;
-  }
+}
 
-  .footer-1{
-   background-color: #000000;
-   height: 176px;
-   opacity: .8;
-   margin-top: 6rem;
-    
-  }
+.footer-1 {
+    background-color: #000000;
+    height: 176px;
+    opacity: .8;
+    margin-top: 6rem;
 
-  /* Profile page starts here */
-  .profile-container{
+}
+
+/* Profile page starts here */
+.profile-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -354,70 +359,85 @@ aside{
     gap: 2rem;
     margin-top: 4rem;
 
-  }
+}
 
-  .photo-container{
+.photo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .8rem;
-  }
+}
 
-  .group{
+.group {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: .8rem;
     cursor: pointer;
-  }
+}
 
-  .profile-container a{
+.profile-container a {
     border: .2px solid #808080;
     padding: .6rem 1.6rem;
     text-decoration: none;
     color: #808080;
-  }
+}
 
-  /* home page starts here */
-.home-container{
+
+
+
+/* home page starts here */
+.home-container {
     background-image: none;
     background-color: #141414;
     height: fit-content;
-  }
-  .left-navbar, .left-nav-items, .right-navbar{
+    width: 100%;
+}
+
+.left-navbar,
+.left-nav-items,
+.right-navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .6rem;
-  }
+}
 
-  .left-nav-items a, .right-navbar a{
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li a {
     font-size: .6rem;
     text-decoration: none;
     color: #FFFFFF;
-  }
+}
 
-  .arrow-down{
+.arrow-down {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .2rem;
-  }
+}
 
-  /* hero section */
+/* hero section */
 .hero-image {
     width: 100%;
     height: 38rem;
-    position: relative;
+    /* position: relative; */
 }
 
-.home-hero-section{
+.home-hero-section {
     /* background-image: url(./asset/MoviePoster.png); */
 
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     top: 30%;
     left: 2%;
@@ -426,19 +446,19 @@ aside{
     gap: 1rem;
 }
 
-.rating{
+.rating {
     display: flex;
     justify-self: center;
     align-items: center;
     gap: .4rem;
 }
 
-.main-hero-text{
+.main-hero-text {
     width: 290px;
     font-size: .8rem;
 }
 
-.component{
+.component {
     display: flex;
     justify-self: center;
     align-items: center;
@@ -446,7 +466,7 @@ aside{
     font-size: .8rem;
 }
 
-.play{
+.play {
     display: flex;
     justify-self: center;
     align-items: center;
@@ -459,12 +479,12 @@ aside{
     cursor: pointer;
 }
 
-.detail{
+.detail {
     display: flex;
     justify-self: center;
     align-items: center;
     gap: .4rem;
-    background-color:  rgba(128, 128, 128, 0.181);
+    background-color: rgba(128, 128, 128, 0.181);
     backdrop-filter: blur(.1px);
     width: fit-content;
     padding: .8rem 1rem;
@@ -472,7 +492,7 @@ aside{
     cursor: pointer;
 }
 
-.movie-section1{
+.movie-section1 {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -482,39 +502,103 @@ aside{
 
 }
 
-.list1{
+.list1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.trailer{
-    width: 18.22rem;
+.trailer {
+    width: 18.2rem;
     height: 9.34rem;
 }
 
-.arrow-right{
+.arrow-right {
     position: absolute;
     left: 96%;
 }
 
-.movie-trailer{
+.movie-trailer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.movie-section2{
+.movie-section2 {
     display: flex;
     flex-direction: column;
-    position: absolute;
     gap: .4rem;
+    margin-left: 1.8rem;
+    margin-top: 1.8rem;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trailer1 {
+    width: 18.22rem;
+    height: 25rem;
+}
+
+.movie-section3 {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-left: 1.8rem;
+    margin-top: 1.8rem;
+}
+
+.rating-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.movie-section4 {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-left: 1.8rem;
+    margin-top: 1.8rem;
+}
+
+.trailer3 {
+    width: 8rem;
+    height: 8rem;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 5%;
+}
+
+.movie-section5 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.8rem;
+}
+
+.movie-section5 p {
     margin-left: 1.8rem;
 }
 
-.movie-section2{
-margin-top: 1rem;
+footer .india {
+    margin-bottom: 2rem;
 }
 
-
-
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    cursor: pointer;
+}

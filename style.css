@@ -108,7 +108,8 @@ ul {
 
 input {
     width: 18.75rem;
-    padding: .62rem;
+    padding: .7rem;
+    border: none;
 }
 
 input::placeholder {
@@ -625,10 +626,12 @@ footer .india {
     .main-container {
         display: flex;
         flex-direction: column;
+        max-width: 100%;
+        width: 768px;
     }
 
     .home-container {
-        width: 100%;
+        width: 450px;
         margin: 0 auto;
     }
 
@@ -670,6 +673,7 @@ footer .india {
 
     .hero-text{
         left: 30%;
+        top: 18%;
         font-size: 1rem;
         display: flex;
         flex-direction: column;
@@ -682,12 +686,27 @@ footer .india {
         width: 350px;
     }
 
-    .container{
-        width: 100%;
+    .trailer, .trailer1, .trailer3{
+        width: 450px;
+        height: 400px;
+    }
+
+    .container, .home-hero-section{
+        width: 400px;
         margin: 0 auto;
         padding: 0 8rem;
-        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .hero-image{
+        width: 450px;
+        height: 400px;
+    }
+
+    .foot-container{
+        border: 1px solid;
     }
 
     .hamburger {

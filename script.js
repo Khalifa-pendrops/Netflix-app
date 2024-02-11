@@ -1,8 +1,9 @@
-let toggler = document.querySelector(".hamburger");
-let menuBar = document.getElementById("menu");
+// let hamburgerMenu = document.querySelector(".hamburger");
+// let menuBar = document.getElementById("menu");
 
-function toggleMenu() {
-  toggler.classList.toggle("active");
-  menuBar.classList.toggle("active");
-}
+// function toggleMenu() {
+//     // console.log(toggleMenu());
+//   hamburgerMenu.classList.toggle("active");
+//   menuBar.classList.toggle("active");
+// }
 // toggleMenu();

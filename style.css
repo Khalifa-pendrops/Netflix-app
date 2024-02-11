@@ -685,8 +685,9 @@ footer .india {
     .container{
         width: 100%;
         margin: 0 auto;
-        padding: 0 10rem;
+        padding: 0 8rem;
         margin-bottom: 1rem;
+
     }
 
     .hamburger {
@@ -717,5 +718,9 @@ footer .india {
         
     .hamburger.active .line:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    ul li a{
+    font-size: .8rem;
     }
 }
